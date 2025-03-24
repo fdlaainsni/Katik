@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.calculation-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.calculation-section img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+.calculation-section label {
+    display: block;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.input-area {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.button-area button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hitung {
+    background-color: #3498db;
+    color: white;
+}
+
+#reset {
+    background-color: #e67e22;
+    color: white;
+}
+
+#hasil {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#hitungkeliling {
+    background-color: #3498db;
+    color: white;
+}
+
+#resetkeliling {
+    background-color: #e67e22;
+    color: white;
+}
+
+#hasilkeliling {
+    margin-top: 20px;
+    font-weight: bold;
+}
